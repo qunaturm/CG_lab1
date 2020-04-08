@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlurFilter.cs" />
+    <Compile Include="фильтры\BlurFilter.cs" />
     <Compile Include="Filters.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -54,9 +54,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GaussFilter.cs" />
-    <Compile Include="InvertFilter.cs" />
-    <Compile Include="MatrixFilter.cs" />
+    <Compile Include="фильтры\GaussFilter.cs" />
+    <Compile Include="фильтры\InvertFilter.cs" />
+    <Compile Include="фильтры\MatrixFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
