@@ -46,19 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Erosion.cs" />
     <Compile Include="фильтры\BlurFilter.cs" />
     <Compile Include="Filters.cs" />
+    <Compile Include="фильтры\Closing.cs" />
+    <Compile Include="фильтры\Dilation.cs" />
+    <Compile Include="фильтры\Glass.cs" />
+    <Compile Include="фильтры\LinearStretch.cs" />
+    <Compile Include="фильтры\Median.cs" />
+    <Compile Include="фильтры\Opening.cs" />
+    <Compile Include="фильтры\Reflector.cs" />
+    <Compile Include="фильтры\Sharp.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="фильтры\Brightness.cs" />
     <Compile Include="фильтры\GaussFilter.cs" />
+    <Compile Include="фильтры\GrayScale.cs" />
     <Compile Include="фильтры\InvertFilter.cs" />
     <Compile Include="фильтры\MatrixFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="фильтры\Sepia.cs" />
+    <Compile Include="фильтры\Sobel.cs" />
+    <Compile Include="фильтры\TopHat.cs" />
+    <Compile Include="фильтры\Wave.cs" />
+    <Compile Include="фильтры\Wave_2.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
