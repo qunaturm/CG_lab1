@@ -51,9 +51,11 @@
     <Compile Include="Filters.cs" />
     <Compile Include="фильтры\Closing.cs" />
     <Compile Include="фильтры\Dilation.cs" />
+    <Compile Include="фильтры\Embosing.cs" />
     <Compile Include="фильтры\Glass.cs" />
     <Compile Include="фильтры\LinearStretch.cs" />
     <Compile Include="фильтры\Median.cs" />
+    <Compile Include="фильтры\MotionBlur.cs" />
     <Compile Include="фильтры\Opening.cs" />
     <Compile Include="фильтры\Reflector.cs" />
     <Compile Include="фильтры\Sharp.cs" />

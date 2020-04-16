@@ -192,6 +192,18 @@ namespace lab_1_right
             Filters filter = new Closing(elem);
             backgroundWorker1.RunWorkerAsync(filter);
         }
+
+        private void embosingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Embosing();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
+
+        private void motionBlurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new MotionBlur();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }
 
